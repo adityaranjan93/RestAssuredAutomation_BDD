@@ -1,0 +1,26 @@
+Dependencies required:
+rest-assured
+json-schema-validator
+json-path
+xml-path
+testng
+
+below library are only for bdd.For non-bdd they are not required
+java-hamcrest
+hamcrest-core
+hamcrest-library
+
+------------------
+keywords-in-bdd:
+
+given()
+	---all the pre-requisites :	set	cookies,auth,headers info,add	params
+
+when()
+	---condition-get,post,put,delete	requests
+
+then()
+	----validation-statuscode,extract	response,cookies,response	body,headers
+	
+	
+

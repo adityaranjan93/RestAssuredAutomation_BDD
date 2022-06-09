@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name =" RestAssuredAutomationBDD  automation suite">
+	<test name ="RestAssuredAutomationBDD  testcases">
+	
+		<classes>
+			<class name="restassuredbdd.test.qa.RestAssuredGetBasic"/>
+			<class name="restassuredbdd.test.qa.RestAssuredPostBasic"/>
+		</classes>
+	
+	</test>
+</suite>
