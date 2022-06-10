@@ -1,0 +1,6 @@
+--- 
+test_job_01: 
+  script: 
+    - "echo HelloWorld"
+  tags: 
+    - ci
