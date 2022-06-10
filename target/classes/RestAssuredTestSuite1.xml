@@ -7,6 +7,7 @@
 		<classes>
 			<class name="restassuredbdd.test.qa.RestAssuredGetBasic"/>
 			<class name="restassuredbdd.test.qa.RestAssuredPostBasic"/>
+			<class name="restassuredbdd.test.qa.RestAssuredPutBasic"/>
 		</classes>
 	
 	</test>
