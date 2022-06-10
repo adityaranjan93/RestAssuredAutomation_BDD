@@ -1,31 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name=" RestAssuredAutomationBDD  automation suite" duration-ms="4911" started-at="2022-06-09T20:31:24Z" finished-at="2022-06-09T20:31:28Z">
+  <suite name="Default suite" duration-ms="4410" started-at="2022-06-10T11:27:15Z" finished-at="2022-06-10T11:27:20Z">
     <groups>
     </groups>
-    <test name="RestAssuredAutomationBDD  testcases" duration-ms="4911" started-at="2022-06-09T20:31:24Z" finished-at="2022-06-09T20:31:28Z">
-      <class name="restassuredbdd.test.qa.RestAssuredGetBasic">
-        <test-method status="PASS" signature="executeGetBasic()[pri:0, instance:restassuredbdd.test.qa.RestAssuredGetBasic@e25b2fe]" name="executeGetBasic" duration-ms="3973" started-at="2022-06-09T20:31:24Z" finished-at="2022-06-09T20:31:28Z">
+    <test name="Default test" duration-ms="4410" started-at="2022-06-10T11:27:15Z" finished-at="2022-06-10T11:27:20Z">
+      <class name="restassuredbdd.test.qa.RestAssuredPutBasic">
+        <test-method status="PASS" signature="setPutData()[pri:0, instance:restassuredbdd.test.qa.RestAssuredPutBasic@77cd7a0]" name="setPutData" is-config="true" duration-ms="631" started-at="2022-06-10T11:27:15Z" finished-at="2022-06-10T11:27:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- executeGetBasic -->
-      </class> <!-- restassuredbdd.test.qa.RestAssuredGetBasic -->
-      <class name="restassuredbdd.test.qa.RestAssuredPostBasic">
-        <test-method status="PASS" signature="setPostData()[pri:0, instance:restassuredbdd.test.qa.RestAssuredPostBasic@754ba872]" name="setPostData" is-config="true" duration-ms="0" started-at="2022-06-09T20:31:28Z" finished-at="2022-06-09T20:31:28Z">
+        </test-method> <!-- setPutData -->
+        <test-method status="PASS" signature="executePutApi()[pri:0, instance:restassuredbdd.test.qa.RestAssuredPutBasic@77cd7a0]" name="executePutApi" duration-ms="3751" started-at="2022-06-10T11:27:16Z" finished-at="2022-06-10T11:27:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setPostData -->
-        <test-method status="PASS" signature="executePostApi()[pri:0, instance:restassuredbdd.test.qa.RestAssuredPostBasic@754ba872]" name="executePostApi" duration-ms="891" started-at="2022-06-09T20:31:28Z" finished-at="2022-06-09T20:31:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- executePostApi -->
-        <test-method status="PASS" signature="printCheck()[pri:0, instance:restassuredbdd.test.qa.RestAssuredPostBasic@754ba872]" name="printCheck" is-config="true" duration-ms="1" started-at="2022-06-09T20:31:28Z" finished-at="2022-06-09T20:31:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printCheck -->
-      </class> <!-- restassuredbdd.test.qa.RestAssuredPostBasic -->
-    </test> <!-- RestAssuredAutomationBDD  testcases -->
-  </suite> <!--  RestAssuredAutomationBDD  automation suite -->
+        </test-method> <!-- executePutApi -->
+      </class> <!-- restassuredbdd.test.qa.RestAssuredPutBasic -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
